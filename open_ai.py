@@ -1,7 +1,7 @@
 import os
 import openai
 import json 
-os.environ['SECRET_KEY'] = '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'
+os.environ['SECRET_KEY'] = 'YOUR KEY' # get your own key at https://beta.openai.com
 openai.api_key = os.getenv("SECRET_KEY")
 
 prompt = 'In python how do you write the fizzbuzz technique without using a for loop'
