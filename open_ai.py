@@ -4,7 +4,7 @@ import json
 os.environ['SECRET_KEY'] = 'YOUR KEY' # get your own key at https://beta.openai.com
 openai.api_key = os.getenv("SECRET_KEY")
 
-prompt = 'In python how do you write the fizzbuzz technique without using a for loop'
+prompt = 'how to parse a nested json in python'
 response = openai.Completion.create(
   model="text-davinci-003",
   prompt= prompt,
