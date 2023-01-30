@@ -16,3 +16,6 @@ The high level steps are as follows
 * `source venv/bin/activate` to enter the virtual environment
 * `pip install -r requirements.txt` to install the requirements in the current environment
 * You will need to generate your own API secret from [Open AI](https://platform.openai.com/playground) *this is a free API for the most part if you are just playing about. You will incurr costs if you use it a lot. You can track your usage from the website*
+
+
+Funnily enough, I pretty much had Open AI guide me at each major step in setting up this repo, the venv and the creation of the script itself. 
